@@ -22,7 +22,7 @@ This project transfers files completely offline using either animated QR codes o
   - SHA-256 verification after every transfer
   - Bit-perfect recovery before download
 
-- 💻 **100% Client-side**
+- **100% Client-side**
   - Runs entirely in the browser
   - No server, uploads, or accounts
 
@@ -47,7 +47,7 @@ This project transfers files completely offline using either animated QR codes o
 
 ## Quick Demo
 
-assets/demo.mp4
+assets/qr-app-demo.gif
 
 
 
