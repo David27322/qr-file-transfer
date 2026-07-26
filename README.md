@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Offline Optical File Transfer
 
-# Run and deploy your AI Studio app
+A simple experiment in moving files using **nothing but light**.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/1b60d059-e448-4fd5-805c-e9a63fe246a6
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+This project transfers files completely offline using either animated QR codes or high-density color images. No internet, Bluetooth, Wi-Fi, USB, or local network required—just a screen and a camera.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+## Features
+
+-  **QR Code Transfer**
+  - Automatic file compression
+  - Adjustable FPS, QR size, and error correction
+  - Interactive packet recovery for missed frames
+
+-  **Color Noise Transfer**
+  - Encodes raw bytes directly into RGB pixels
+  - Supports files split across multiple PNGs
+  - Lossless reconstruction
+
+- **Integrity Verification**
+  - SHA-256 verification after every transfer
+  - Bit-perfect recovery before download
+
+- 💻 **100% Client-side**
+  - Runs entirely in the browser
+  - No server, uploads, or accounts
+
+---
+
+## Tech
+
+- HTML
+- CSS
+- JavaScript
+- Web Crypto API
+- CompressionStream API
+- QRCode.js
+
+---
+
+## Screenshots
+
+![Laptop](assets/laptop.png)
+
+![Phone](assets/phone.png)
+
+## Quick Demo
+
+assets/demo.mp4
+
+
+
