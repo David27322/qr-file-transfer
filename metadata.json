@@ -1,0 +1,6 @@
+{
+  "name": "Offline Optical File Transfer",
+  "description": "Offline optical file transfer app using dynamic QR code slideshows and high-density data noise images.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
