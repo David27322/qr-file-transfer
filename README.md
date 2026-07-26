@@ -47,7 +47,7 @@ This project transfers files completely offline using either animated QR codes o
 
 ## Quick Demo
 
-assets/qr-app-demo.gif
+assets/demo.gif
 
 
 
