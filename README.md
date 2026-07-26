@@ -41,13 +41,19 @@ This project transfers files completely offline using either animated QR codes o
 
 ## Screenshots
 
-![Laptop](assets/laptop.png)
+<p align="center">
+  <img src="assets/laptop.png" alt="Laptop" width="700">
+</p>
 
-![Phone](assets/phone.jpeg)
+<p align="center">
+  <img src="assets/phone.jpeg" alt="Phone" width="250">
+</p>
 
 ## Quick Demo
 
-![Demo](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" alt="Demo" width="700">
+</p>
 
 
 
