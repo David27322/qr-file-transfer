@@ -43,11 +43,11 @@ This project transfers files completely offline using either animated QR codes o
 
 ![Laptop](assets/laptop.png)
 
-![Phone](assets/phone.png)
+![Phone](assets/phone.jpeg)
 
 ## Quick Demo
 
-assets/demo.gif
+![Demo](assets/demo.gif)
 
 
 
